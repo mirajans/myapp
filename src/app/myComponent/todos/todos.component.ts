@@ -12,8 +12,23 @@ export class TodosComponent implements OnInit {
  todos:Todo[];
   constructor() {
    this.todos =[
-
-
+     {
+       sno:2,
+       title:"this is title",
+       desc:"this is desc",
+      active:true,
+     },
+     {
+      sno:4,
+      title:"this is title4",
+      desc:"this is desc4",
+     active:true,
+    },{
+      sno:5,
+      title:"this is title5",
+      desc:"this is desc5",
+     active:true,
+    }
    ]
    }
 
